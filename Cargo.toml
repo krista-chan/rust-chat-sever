@@ -1,0 +1,13 @@
+[package]
+name = "cutie-chat"
+version = "0.1.0"
+authors = ["loggers-bro <qbotdedv84@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tungstenite = "0.12.0"
+serde_json = "1.0.61"
+serde = { version = "1.0.118", features = ["derive"] }
+tokio = { version = "1.0.1", features = ["full"] }
