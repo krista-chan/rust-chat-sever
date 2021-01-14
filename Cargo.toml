@@ -9,5 +9,6 @@ edition = "2018"
 [dependencies]
 tungstenite = "0.12.0"
 serde_json = "1.0.61"
+uuid =  { version = "0.8.1", features = ["v4"] }
 serde = { version = "1.0.118", features = ["derive"] }
 tokio = { version = "1.0.1", features = ["full"] }
